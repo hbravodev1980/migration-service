@@ -89,7 +89,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.migration-service [build]">
+  <component name="RunManager" selected="Gradle.migration-service [classes]">
     <configuration name="MigrationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.com.ci.migration.migrationservice.MigrationServiceApplication" />
       <module name="migration-service.main" />
@@ -171,9 +171,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.migration-service [build]" />
-        <item itemvalue="Gradle.migration-service [clean]" />
         <item itemvalue="Gradle.migration-service [classes]" />
+        <item itemvalue="Gradle.migration-service [clean]" />
+        <item itemvalue="Gradle.migration-service [build]" />
         <item itemvalue="Application.MigrationServiceApplication" />
       </list>
     </recent_temporary>
