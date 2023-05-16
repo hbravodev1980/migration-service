@@ -4,42 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d64379f-d936-4107-b17a-b566a48c51f1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/MigrationServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/component/ClinicalRecordItemProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/component/ClinicalRecordItemReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/component/FacturaItemWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/component/PageRangePartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/BatchConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/TransactionManagerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/controller/JobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ArchivoInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ArchivoOutput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ClinicalRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Document.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Encuentro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/enums/StatusExpediente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/repository/ClinicalRecordRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/repository/DocumentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/repository/FacturaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/util/GenericConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pe/com/ci/migration/migrationservice/MigrationServiceApplicationTests.java" afterDir="false" />
+    <list default="true" id="3d64379f-d936-4107-b17a-b566a48c51f1" name="Changes" comment="Se sube las fuentes de la migracion al container facturas en cosmos">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +112,19 @@
       <option name="presentableId" value="Default" />
       <updated>1683904607838</updated>
     </task>
+    <task id="LOCAL-00001" summary="Se sube las fuentes de la migracion al container facturas en cosmos">
+      <created>1684249602871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684249602871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Se sube las fuentes de la migracion al container facturas en cosmos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se sube las fuentes de la migracion al container facturas en cosmos" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
