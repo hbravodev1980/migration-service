@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d64379f-d936-4107-b17a-b566a48c51f1" name="Changes" comment="Se sube archivo properties para especificar la version de jdk a instalar">
+    <list default="true" id="3d64379f-d936-4107-b17a-b566a48c51f1" name="Changes" comment="Se sube archivos para heroku">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,13 +229,28 @@
       <option name="project" value="LOCAL" />
       <updated>1684251927106</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Se sube archivos para heroku">
+      <created>1684253854269</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684253854269</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Se sube archivos para heroku">
+      <created>1684253991891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684253991891</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se sube las fuentes de la migracion al container facturas en cosmos" />
     <MESSAGE value="Se sube archivo properties para especificar la version de jdk a instalar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se sube archivo properties para especificar la version de jdk a instalar" />
+    <MESSAGE value="Se sube archivos para heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se sube archivos para heroku" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

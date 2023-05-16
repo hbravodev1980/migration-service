@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/migration-service-1.0-SNAPSHOT.jar
+web: java -Dserver.port=$PORT -jar build/libs/migration-service-1.0-SNAPSHOT.jar
