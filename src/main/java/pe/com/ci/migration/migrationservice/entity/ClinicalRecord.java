@@ -5,11 +5,7 @@ import com.azure.spring.data.cosmos.core.mapping.PartitionKey;
 import static com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 import static pe.com.ci.migration.migrationservice.util.GenericConstant.DEFAULT_LOCALE;
 import static pe.com.ci.migration.migrationservice.util.GenericConstant.FORMAT_YYYYMMDD;
@@ -18,12 +14,8 @@ import static pe.com.ci.migration.migrationservice.util.GenericConstant.FORMATSL
 import java.time.LocalDate;
 import java.util.List;
 
-@Container(containerName = "clinicalrecord")
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@Container(containerName = "clinicalrecordtest")
+@Data
 public class ClinicalRecord {
     @Id
     private String id;

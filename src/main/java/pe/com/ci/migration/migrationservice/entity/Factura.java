@@ -3,12 +3,7 @@ package pe.com.ci.migration.migrationservice.entity;
 import com.azure.spring.data.cosmos.core.mapping.Container;
 import com.azure.spring.data.cosmos.core.mapping.PartitionKey;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 import org.springframework.data.annotation.Id;
 
 import java.time.LocalDate;
@@ -18,13 +13,8 @@ import static pe.com.ci.migration.migrationservice.util.GenericConstant.DEFAULT_
 import static pe.com.ci.migration.migrationservice.util.GenericConstant.FORMATSLASH_DDMMYYYY;
 import static pe.com.ci.migration.migrationservice.util.GenericConstant.FORMAT_YYYYMMDD;
 
-@Container(containerName = "facturas")
-@Getter
-@Setter
-@ToString
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@Container(containerName = "facturastest")
+@Data
 public class Factura {
     private String archivoAnexoDet;
     private String archivoAnexoDetSas;

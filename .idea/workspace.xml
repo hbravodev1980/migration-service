@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d64379f-d936-4107-b17a-b566a48c51f1" name="Changes" comment="Se sube archivos para heroku">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/component/ClinicalRecordItemReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/component/ClinicalRecordItemReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/BatchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/BatchConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/DataSourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/config/TransactionManagerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ArchivoInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ArchivoInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ArchivoOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ArchivoOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ClinicalRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/ClinicalRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Encuentro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Encuentro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/entity/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/repository/ClinicalRecordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pe/com/ci/migration/migrationservice/repository/ClinicalRecordRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +99,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -95,7 +109,7 @@
       <recent name="C:\trabajo\clinica_internacional\migration\migration-service\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.migration-service [build]">
+  <component name="RunManager" selected="Application.MigrationServiceApplication">
     <configuration name="MigrationServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pe.com.ci.migration.migrationservice.MigrationServiceApplication" />
       <module name="migration-service.main" />
@@ -249,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684254286650</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Se sube archivos para heroku">
+      <created>1684258038737</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684258038737</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

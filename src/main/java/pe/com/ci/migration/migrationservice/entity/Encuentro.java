@@ -1,24 +1,14 @@
 package pe.com.ci.migration.migrationservice.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
 import java.time.LocalDate;
 import java.util.List;
 
 import static pe.com.ci.migration.migrationservice.util.GenericConstant.FORMAT_YYYYMMDD;
 
-@Getter
-@Setter
-@ToString
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@Data
 public class Encuentro {
     private String applicationId;
     private List<ArchivoOutput> archivos;

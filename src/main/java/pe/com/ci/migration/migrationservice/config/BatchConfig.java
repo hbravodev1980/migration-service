@@ -1,6 +1,5 @@
 package pe.com.ci.migration.migrationservice.config;
 
-import com.azure.spring.data.cosmos.core.query.CosmosPageRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.springframework.batch.core.Job;
@@ -20,6 +19,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.task.TaskExecutor;
 
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 import org.springframework.transaction.PlatformTransactionManager;
 import pe.com.ci.migration.migrationservice.component.ClinicalRecordItemProcessor;
@@ -70,11 +70,11 @@ public class BatchConfig {
     @Value("${app.custom.batch.grid-size}")
     private int gridSize;
 
-    @Value("${app.custom.batch.max-pool-size}")
-    private int maxPoolSize;
-
     @Value("${app.custom.batch.core-pool-size}")
     private int corePoolSize;
+
+    @Value("${app.custom.batch.max-pool-size}")
+    private int maxPoolSize;
 
     @Value("${app.custom.batch.queue-capacity}")
     private int queueCapacity;
@@ -114,7 +114,7 @@ public class BatchConfig {
         Page<ClinicalRecord> clinicalRecordPage = clinicalRecordRepository
                 .findAllByEstado(
                         StatusExpediente.EXPEDIENTE_PENDIENTE.name(),
-                        new CosmosPageRequest(0, pageSize, null));
+                        PageRequest.ofSize(pageSize));
 
         return new PageRangePartitioner(clinicalRecordPage.getTotalPages());
     }
@@ -160,8 +160,8 @@ public class BatchConfig {
     @Bean
     public TaskExecutor taskExecutor() {
         ThreadPoolTaskExecutor threadPoolTaskExecutor = new ThreadPoolTaskExecutor();
-        threadPoolTaskExecutor.setMaxPoolSize(maxPoolSize);
         threadPoolTaskExecutor.setCorePoolSize(corePoolSize);
+        threadPoolTaskExecutor.setMaxPoolSize(maxPoolSize);
         threadPoolTaskExecutor.setQueueCapacity(queueCapacity);
         return threadPoolTaskExecutor;
     }

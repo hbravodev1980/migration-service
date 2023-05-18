@@ -1,18 +1,8 @@
 package pe.com.ci.migration.migrationservice.entity;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.Data;
 
-@Getter
-@Setter
-@ToString
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+@Data
 public class ArchivoOutput {
     private String nombreArchivo;
     private String urlArchivo;
